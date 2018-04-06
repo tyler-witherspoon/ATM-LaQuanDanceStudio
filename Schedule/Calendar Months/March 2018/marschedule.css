@@ -1,0 +1,139 @@
+/*Element Selectors -----------*/
+:root {
+  background: linear-gradient(goldenrod, rgb(112, 54, 17));
+  border-bottom: solid black 12px;
+  min-height: 100%;
+}
+
+h1:not(.tbltitle) {
+font-family: "Times New Roman";
+  text-align: center;
+  font-size: 80px;
+  font-family: "Centaur";
+  color: black;
+  
+  padding: 0;
+  margin: 0;
+  border-top: 6px solid black;
+  border-bottom: 6px solid black;
+  border-radius: 2%;
+}
+
+
+table {
+  table-layout: fixed;
+  position: relative;
+  display: block;
+  text-align: center;
+  border-spacing: 0.125%;
+  font-size: 24px;
+  margin: 0 10% 3%; 
+   border: solid black 6px;
+}
+
+tr {
+  border: solid black 1px;
+  background: white;
+  padding: 18px;
+ 
+}
+
+td, 
+th {
+  font-size: 16px;
+  text-align: center;
+   width: 100%;
+  border: solid black 1px;
+}
+
+a:link {
+  color: rgb(56, 174, 183);
+  text-decoration: none;
+  background: black 18px;
+  border: solid lightgrey 2px;
+  
+}
+a:visited {
+  color: rgb(77, 255, 255);
+  border: solid lightgrey 2px;
+  border-radius: 20%;
+  
+}
+
+a:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+a:focus {
+  color: gold;
+  border: dotted lightgrey 2px;
+}
+
+a:active {
+ color: rgb(255, 255, 132);
+  cursor: wait;
+}
+
+a[href*="April 2018"] {
+  margin-left: 4%;
+  font-size: 28px;
+}
+
+a[href*="February 2018"] {
+  margin-right: 4%;
+  font-size: 28px;
+}
+
+ /*Class Selectors ---------*/
+
+.schnex a:link {
+font-size: 60px;
+    display: block;
+  text-align: center;
+}
+  
+
+.rcnt {
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.rtrn:link {
+color: rgb(56, 174, 183);
+  text-decoration: none;
+  background: black 18px;
+  border: solid lightgrey 2px;
+  font-size: 32px;
+}
+
+/*Media Queries ---------------*/
+@media (min-width:801px) {
+
+.rcnt {
+  font-size: 72px;
+}
+
+.rcnt a:link {
+  font-size: 60px;
+}
+}
+
+
+@media (max-width:800px) and (min-width: 401px) {
+.schnex a:link,
+.schnex a:visited {
+  font-size: 56px;
+  margin: 0;
+}
+}
+
+@media (max-width: 400px) {
+.schnex a:link,
+.schnex a:visited {
+  font-size: 56px;
+  padding-right: 0;
+}
+}
+  

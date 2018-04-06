@@ -1,0 +1,92 @@
+/*Element Selectors -----------*/
+:root {
+  background: linear-gradient(goldenrod, rgb(112, 54, 17));
+  border-bottom: solid black 12px;
+  min-height: 100%;
+}
+
+h1:not(.tbltitle) {
+font-family: "Times New Roman";
+  text-align: center;
+  font-size: 80px;
+  font-family: "Centaur";
+  color: black;
+  
+  padding: 0;
+  margin: 0;
+  border-top: 6px solid black;
+  border-bottom: 6px solid black;
+  border-radius: 2%;
+}
+
+p {
+  font-size: 32px;
+}
+
+a:link[href^="Calendar"]  {
+  color: rgb(56, 174, 183);
+  text-decoration: none;
+  background: black 18px;
+  border: solid lightgrey 2px;
+  font-size: 72px;
+  text-align: center;
+  display: block;
+}
+a:visited {
+  color: rgb(77, 255, 255);
+  border: solid lightgrey 2px;
+  border-radius: 20%;
+  
+}
+
+a:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+a:focus {
+  color: gold;
+  border: dotted lightgrey 2px;
+}
+
+a:active {
+ color: rgb(255, 255, 132);
+  cursor: wait;
+}
+
+
+
+/*Class Selectors ------------*/
+.copyright {
+  font-size: 16px;
+}
+
+.rtrn:link {
+color: rgb(56, 174, 183);
+  text-decoration: none;
+  background: black 18px;
+  border: solid lightgrey 2px;
+  font-size: 32px;
+}
+
+.noclass {
+  font-size: 24px;
+}
+
+.schinfo,
+.noclass {
+  text-align: center;
+}
+
+.copyright {
+  font-size: 32px;
+  text-align: center;
+}
+
+
+  
+
+
+
+
+

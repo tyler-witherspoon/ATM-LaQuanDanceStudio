@@ -1,0 +1,153 @@
+
+/*Element Selectors -------------*/
+
+:root {
+  background: linear-gradient(goldenrod, rgb(112, 54, 17));
+  border-bottom: solid black 12px;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: "Times New Roman";
+  text-align: center;
+  font-size: 80px;
+  font-family: "Centaur";
+  color: black;
+  
+  padding: 0;
+  margin: 0;
+  border-top: 6px solid black;
+  border-bottom: 6px solid black;
+  border-radius: 2%;
+  
+}
+
+ a:link  {
+  color: rgb(56, 174, 183);
+  text-decoration: none;
+  background: black 18px;
+  border: solid lightgrey 2px;
+  
+}
+
+a:visited {
+  color: rgb(77, 255, 255);
+  border: solid lightgrey 2px;
+  border-radius: 20%; 
+}
+
+a:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+a:focus {
+  color: gold;
+  border: dotted lightgrey 2px;
+}
+
+a:active {
+  color: rgb(255, 255, 132);
+  cursor: wait;
+}
+
+li a {
+  margin-left: none;
+}
+
+
+
+li {
+  display: inline;
+  position: relative;
+  padding-left: 6px;
+  border-left: solid black 1px;
+}
+ 
+img {
+  border: solid black 1px;
+  border-radius: 10%;
+}
+ 
+/*Class Selectors ----------------*/
+.img {
+  align-self: center;
+  display: inline-block;
+  width: 40%;
+  margin-left: 30%;
+  
+}
+.addr,
+.sclmda {
+font-family:Times New Romans;
+  font-size: 50px;
+  text-align:center;
+  color:black;
+  margin-bottom: 12px;
+}
+.rtrn {
+  display: inline;
+  font-size: 32px;
+}
+
+
+
+.maintxt,
+.copyright
+{
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
+
+/*Class Selectors -------------*/
+.phnnum {
+  text-align: right;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.dncimg {
+ width: 55%;
+  margin-left: 22%;
+}
+
+.copyright {
+  font-size: 32px;
+  text-align: center;
+}
+
+.facebook {
+  width: 6%;
+  margin-left: 47%;
+}
+
+a:link[href="https://www.facebook.com/laquandancestudio/"] {
+  border: none;
+  background: none;
+}
+
+
+
+/*ID Selectors -------*/
+
+
+/*Media Queries ------------*/
+
+@media (max-width: 1000px) {
+.phnnum {
+  text-align: center;
+}
+}
+
+@media (min-width: 1001px) {
+.dncimg {
+  width: 90%;
+  max-height: 800px;
+  margin-left: 5%;
+}
+}
+
+
